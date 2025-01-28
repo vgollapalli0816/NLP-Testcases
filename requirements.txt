@@ -1,0 +1,12 @@
+numpy==1.24.4
+pandas>=2.2.0
+pickle-mixin
+tensorflow
+keras
+nltk==3.7
+gensim==4.3.1
+streamlit==1.18.0
+huggingface_hub==0.14.1
+sentence-transformers==2.2.2
+scikit-learn>=1.4.0
+joblib==1.2.0
