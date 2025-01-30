@@ -32,9 +32,9 @@ def load_model_with_git(repo_url, file_path):
 # Repository URL and model file paths
 repo_url = "https://github.com/vgollapalli0816/NLP-Testcases.git"
 models_to_load = {
-    "knn_model_expected": "knn_model_expected (2).joblib",
-    "knn_model_steps": "knn_model_steps (2).joblib",
-    "tfidf_vectorizer": "tfidf_vectorizer (3).pkl"
+    "knn_model_expected": "knn_model_expected.joblib",
+    "knn_model_steps": "knn_model_steps.joblib",
+    "tfidf_vectorizer": "tfidf_vectorizer.pkl"
 }
 
 # Load each model
