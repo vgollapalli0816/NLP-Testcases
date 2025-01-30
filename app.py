@@ -27,7 +27,7 @@ def load_model_with_git(repo_url, file_path):
         model = joblib.load(model_path)
         return model
     else:
-        raise FileNotFoundError(f"The file {file_path} does not exist in the repository.")
+        raise FileNotFoundError(f"The file  {file_path} does not exist in the repository.")
 
 # Repository URL and model file paths
 repo_url = "https://github.com/vgollapalli0816/NLP-Testcases.git"
