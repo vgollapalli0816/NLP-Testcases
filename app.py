@@ -17,6 +17,7 @@ import joblib
 import os
 
 # Function to load models using GitPython
+@st.cache_resource
 def load_model_with_git(repo_url, file_path):
     repo_dir = "temp_repo"  # Directory to clone into
     if not os.path.exists(repo_dir):
